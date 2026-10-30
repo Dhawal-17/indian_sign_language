@@ -1,0 +1,151 @@
+# ==============================
+
+# Virtual Environment
+
+# ==============================
+
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+
+# Python Cache Files
+
+# ==============================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ==============================
+
+# Environment Variables & Secrets
+
+# ==============================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+
+# Jupyter Notebook
+
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+
+# IDE & Editor Files
+
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+
+# Logs & Temporary Files
+
+# ==============================
+
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==============================
+
+# ML/DL Model Weights
+
+# ==============================
+
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.keras
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+*.ckpt
+*.pkl
+*.joblib
+
+# ==============================
+
+# Datasets & Video Files
+
+# ==============================
+
+datasets/
+dataset/
+data/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ==============================
+
+# Training Outputs
+
+# ==============================
+
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+tensorboard/
+
+# ==============================
+
+# Build & Distribution
+
+# ==============================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+
+# Test & Coverage
+
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+
+# Package Manager
+
+# ==============================
+
+pip-wheel-metadata/
+
+# ==============================
+
+# OS Files
+
+# ==============================
+
+Desktop.ini
+.DS_Store
